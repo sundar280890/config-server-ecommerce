@@ -20,7 +20,7 @@ spring:
      consumer:
        bootstrap-servers: localhost:9092
        key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-       value-deserializer: org.springframework.kafka.support.serializer.JsonsDeserializer
+       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
        
      topic:
        name: ecommerce
